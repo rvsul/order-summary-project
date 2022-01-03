@@ -1,0 +1,107 @@
+body{
+    background-color: #d6e1ff;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.main{
+    width: 450px;
+    height: 680px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 160px;
+    left: 700px;
+    box-shadow: 0 4px 8px 0 rgba(38, 69, 204, 0.2), 0 6px 20px 0 rgba(27, 80, 180, 0.19);
+}
+.image{
+    width: 450px;
+    border-radius: 20px
+}
+.image img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 450px;
+}
+.main h1{
+    font-size: 25px;
+    margin: auto;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.header{
+    margin-left: 124px;
+    position: relative;
+    width: 220px;
+    margin-top: 40px;
+}
+#info{
+    text-align: center;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.plan{
+    height: 105px;
+    display: flex;
+    margin: 35px;
+    background-color: #f8f9fe;
+    border-radius: 10px;
+}
+.plan img{
+    width: 50px;
+    height: 50px;
+    margin-left: 27px;
+    margin-top: 28px
+}
+.plan h2{
+    color: hsl(223, 47%, 23%);
+    font-size: 18px;
+    height: 20px;
+    font-weight: 800;
+}
+.plan-price{
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.price{
+    color: hsl(224, 23%, 55%);
+}
+.change{
+    text-decoration: none;
+    position: absolute;
+    right: 60px;
+    top: 455px;
+    color: hsla(245, 70%, 48%, 0.822);
+    font-weight: 700;
+}
+.proceed{
+    height: 50px;
+    display: flex;
+    margin: 35px;
+    background-color: #f8f9fe;
+    border-radius: 10px;
+    background-color: hsla(245, 70%, 48%, 0.822);
+    box-shadow: 0 4px 8px 0 rgba(38, 69, 204, 0.2), 0 6px 20px 0 rgba(27, 80, 180, 0.19);
+    align-items: center;
+}
+.proceed a{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.cancel{
+    display: flex;
+}
+.cancel a{
+    margin: auto;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    color: hsl(224, 23%, 55%);
+}
